@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1B61CCB1707654400B1F8A0 /* ScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B61CCA1707654400B1F8A0 /* ScrollView.m */; };
+		D1E79C8717035284000AFC87 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1E79C8617035284000AFC87 /* QuartzCore.framework */; };
+		D1F0A22416FF23A100BF470C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F0A22316FF23A100BF470C /* UIKit.framework */; };
+		D1F0A22616FF23A100BF470C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F0A22516FF23A100BF470C /* Foundation.framework */; };
+		D1F0A22816FF23A100BF470C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F0A22716FF23A100BF470C /* CoreGraphics.framework */; };
+		D1F0A22E16FF23A100BF470C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1F0A22C16FF23A100BF470C /* InfoPlist.strings */; };
+		D1F0A23016FF23A100BF470C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F0A22F16FF23A100BF470C /* main.m */; };
+		D1F0A23416FF23A100BF470C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F0A23316FF23A100BF470C /* AppDelegate.m */; };
+		D1F0A23616FF23A100BF470C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D1F0A23516FF23A100BF470C /* Default.png */; };
+		D1F0A23816FF23A100BF470C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1F0A23716FF23A100BF470C /* Default@2x.png */; };
+		D1F0A23A16FF23A100BF470C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1F0A23916FF23A100BF470C /* Default-568h@2x.png */; };
+		D1F0A23D16FF23A100BF470C /* HeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F0A23C16FF23A100BF470C /* HeaderViewController.m */; };
+		D1F0A24016FF23A100BF470C /* HeaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1F0A23E16FF23A100BF470C /* HeaderViewController.xib */; };
+		D1F0A25716FF242E00BF470C /* FlickViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1F0A25616FF242E00BF470C /* FlickViewController.xib */; };
+		D1F0A26016FF258D00BF470C /* MainFlickView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F0A25916FF243F00BF470C /* MainFlickView.m */; };
+		D1F0A26116FF259000BF470C /* InnerScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F0A25B16FF243F00BF470C /* InnerScrollView.m */; };
+		D1F0A26216FF259200BF470C /* FlickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F0A25F16FF243F00BF470C /* FlickViewController.m */; };
+		D1F7061A1722F53B0008985A /* image01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1F706191722F53B0008985A /* image01.jpg */; };
+		D1F706211722F5480008985A /* image02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1F7061C1722F5480008985A /* image02.jpg */; };
+		D1F706221722F5480008985A /* image03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1F7061D1722F5480008985A /* image03.jpg */; };
+		D1F706231722F5480008985A /* image04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1F7061E1722F5480008985A /* image04.jpg */; };
+		D1F706241722F5480008985A /* image05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1F7061F1722F5480008985A /* image05.jpg */; };
+		D1F706251722F5480008985A /* image06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1F706201722F5480008985A /* image06.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D1B61CC91707654400B1F8A0 /* ScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollView.h; sourceTree = "<group>"; };
+		D1B61CCA1707654400B1F8A0 /* ScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollView.m; sourceTree = "<group>"; };
+		D1E79C8617035284000AFC87 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D1F0A21F16FF23A100BF470C /* Flicksample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flicksample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1F0A22316FF23A100BF470C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D1F0A22516FF23A100BF470C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D1F0A22716FF23A100BF470C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D1F0A22B16FF23A100BF470C /* Flicksample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Flicksample-Info.plist"; sourceTree = "<group>"; };
+		D1F0A22D16FF23A100BF470C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D1F0A22F16FF23A100BF470C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D1F0A23116FF23A100BF470C /* Flicksample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Flicksample-Prefix.pch"; sourceTree = "<group>"; };
+		D1F0A23216FF23A100BF470C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D1F0A23316FF23A100BF470C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D1F0A23516FF23A100BF470C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D1F0A23716FF23A100BF470C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D1F0A23916FF23A100BF470C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D1F0A23B16FF23A100BF470C /* HeaderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderViewController.h; sourceTree = "<group>"; };
+		D1F0A23C16FF23A100BF470C /* HeaderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeaderViewController.m; sourceTree = "<group>"; };
+		D1F0A23F16FF23A100BF470C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HeaderViewController.xib; sourceTree = "<group>"; };
+		D1F0A25616FF242E00BF470C /* FlickViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlickViewController.xib; sourceTree = "<group>"; };
+		D1F0A25816FF243F00BF470C /* MainFlickView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainFlickView.h; sourceTree = "<group>"; };
+		D1F0A25916FF243F00BF470C /* MainFlickView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainFlickView.m; sourceTree = "<group>"; };
+		D1F0A25A16FF243F00BF470C /* InnerScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InnerScrollView.h; sourceTree = "<group>"; };
+		D1F0A25B16FF243F00BF470C /* InnerScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InnerScrollView.m; sourceTree = "<group>"; };
+		D1F0A25E16FF243F00BF470C /* FlickViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlickViewController.h; sourceTree = "<group>"; };
+		D1F0A25F16FF243F00BF470C /* FlickViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlickViewController.m; sourceTree = "<group>"; };
+		D1F706191722F53B0008985A /* image01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image01.jpg; sourceTree = "<group>"; };
+		D1F7061C1722F5480008985A /* image02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image02.jpg; sourceTree = "<group>"; };
+		D1F7061D1722F5480008985A /* image03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image03.jpg; sourceTree = "<group>"; };
+		D1F7061E1722F5480008985A /* image04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image04.jpg; sourceTree = "<group>"; };
+		D1F7061F1722F5480008985A /* image05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image05.jpg; sourceTree = "<group>"; };
+		D1F706201722F5480008985A /* image06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image06.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1F0A21C16FF23A100BF470C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E79C8717035284000AFC87 /* QuartzCore.framework in Frameworks */,
+				D1F0A22416FF23A100BF470C /* UIKit.framework in Frameworks */,
+				D1F0A22616FF23A100BF470C /* Foundation.framework in Frameworks */,
+				D1F0A22816FF23A100BF470C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1F0A21416FF23A100BF470C = {
+			isa = PBXGroup;
+			children = (
+				D1F0A22916FF23A100BF470C /* Flicksample */,
+				D1F0A22216FF23A100BF470C /* Frameworks */,
+				D1F0A22016FF23A100BF470C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1F0A22016FF23A100BF470C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1F0A21F16FF23A100BF470C /* Flicksample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1F0A22216FF23A100BF470C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1E79C8617035284000AFC87 /* QuartzCore.framework */,
+				D1F0A22316FF23A100BF470C /* UIKit.framework */,
+				D1F0A22516FF23A100BF470C /* Foundation.framework */,
+				D1F0A22716FF23A100BF470C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1F0A22916FF23A100BF470C /* Flicksample */ = {
+			isa = PBXGroup;
+			children = (
+				D1F0A23216FF23A100BF470C /* AppDelegate.h */,
+				D1F0A23316FF23A100BF470C /* AppDelegate.m */,
+				D1F0A23B16FF23A100BF470C /* HeaderViewController.h */,
+				D1F0A23C16FF23A100BF470C /* HeaderViewController.m */,
+				D1F0A23E16FF23A100BF470C /* HeaderViewController.xib */,
+				D1F0A25616FF242E00BF470C /* FlickViewController.xib */,
+				D1F0A25816FF243F00BF470C /* MainFlickView.h */,
+				D1F0A25916FF243F00BF470C /* MainFlickView.m */,
+				D1F0A25A16FF243F00BF470C /* InnerScrollView.h */,
+				D1F0A25B16FF243F00BF470C /* InnerScrollView.m */,
+				D1B61CC91707654400B1F8A0 /* ScrollView.h */,
+				D1B61CCA1707654400B1F8A0 /* ScrollView.m */,
+				D1F0A25E16FF243F00BF470C /* FlickViewController.h */,
+				D1F0A25F16FF243F00BF470C /* FlickViewController.m */,
+				D1F0A22A16FF23A100BF470C /* Supporting Files */,
+			);
+			path = Flicksample;
+			sourceTree = "<group>";
+		};
+		D1F0A22A16FF23A100BF470C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1F7061C1722F5480008985A /* image02.jpg */,
+				D1F7061D1722F5480008985A /* image03.jpg */,
+				D1F7061E1722F5480008985A /* image04.jpg */,
+				D1F7061F1722F5480008985A /* image05.jpg */,
+				D1F706201722F5480008985A /* image06.jpg */,
+				D1F706191722F53B0008985A /* image01.jpg */,
+				D1F0A22B16FF23A100BF470C /* Flicksample-Info.plist */,
+				D1F0A22C16FF23A100BF470C /* InfoPlist.strings */,
+				D1F0A22F16FF23A100BF470C /* main.m */,
+				D1F0A23116FF23A100BF470C /* Flicksample-Prefix.pch */,
+				D1F0A23516FF23A100BF470C /* Default.png */,
+				D1F0A23716FF23A100BF470C /* Default@2x.png */,
+				D1F0A23916FF23A100BF470C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1F0A21E16FF23A100BF470C /* Flicksample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1F0A24316FF23A100BF470C /* Build configuration list for PBXNativeTarget "Flicksample" */;
+			buildPhases = (
+				D1F0A21B16FF23A100BF470C /* Sources */,
+				D1F0A21C16FF23A100BF470C /* Frameworks */,
+				D1F0A21D16FF23A100BF470C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flicksample;
+			productName = Flicksample;
+			productReference = D1F0A21F16FF23A100BF470C /* Flicksample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1F0A21616FF23A100BF470C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = hiasa;
+			};
+			buildConfigurationList = D1F0A21916FF23A100BF470C /* Build configuration list for PBXProject "Flicksample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D1F0A21416FF23A100BF470C;
+			productRefGroup = D1F0A22016FF23A100BF470C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1F0A21E16FF23A100BF470C /* Flicksample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1F0A21D16FF23A100BF470C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1F0A22E16FF23A100BF470C /* InfoPlist.strings in Resources */,
+				D1F0A23616FF23A100BF470C /* Default.png in Resources */,
+				D1F0A23816FF23A100BF470C /* Default@2x.png in Resources */,
+				D1F0A23A16FF23A100BF470C /* Default-568h@2x.png in Resources */,
+				D1F0A24016FF23A100BF470C /* HeaderViewController.xib in Resources */,
+				D1F0A25716FF242E00BF470C /* FlickViewController.xib in Resources */,
+				D1F7061A1722F53B0008985A /* image01.jpg in Resources */,
+				D1F706211722F5480008985A /* image02.jpg in Resources */,
+				D1F706221722F5480008985A /* image03.jpg in Resources */,
+				D1F706231722F5480008985A /* image04.jpg in Resources */,
+				D1F706241722F5480008985A /* image05.jpg in Resources */,
+				D1F706251722F5480008985A /* image06.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1F0A21B16FF23A100BF470C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1F0A26216FF259200BF470C /* FlickViewController.m in Sources */,
+				D1F0A26116FF259000BF470C /* InnerScrollView.m in Sources */,
+				D1F0A26016FF258D00BF470C /* MainFlickView.m in Sources */,
+				D1F0A23016FF23A100BF470C /* main.m in Sources */,
+				D1F0A23416FF23A100BF470C /* AppDelegate.m in Sources */,
+				D1F0A23D16FF23A100BF470C /* HeaderViewController.m in Sources */,
+				D1B61CCB1707654400B1F8A0 /* ScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D1F0A22C16FF23A100BF470C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1F0A22D16FF23A100BF470C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D1F0A23E16FF23A100BF470C /* HeaderViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1F0A23F16FF23A100BF470C /* en */,
+			);
+			name = HeaderViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1F0A24116FF23A100BF470C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D1F0A24216FF23A100BF470C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1F0A24416FF23A100BF470C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Takahiro Hiasa (BS6575X2JM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Takahiro Hiasa (BS6575X2JM)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flicksample/Flicksample-Prefix.pch";
+				INFOPLIST_FILE = "Flicksample/Flicksample-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "70DFA94D-63C7-4196-94EA-3870C091EC51";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "70DFA94D-63C7-4196-94EA-3870C091EC51";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D1F0A24516FF23A100BF470C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flicksample/Flicksample-Prefix.pch";
+				INFOPLIST_FILE = "Flicksample/Flicksample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1F0A21916FF23A100BF470C /* Build configuration list for PBXProject "Flicksample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1F0A24116FF23A100BF470C /* Debug */,
+				D1F0A24216FF23A100BF470C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1F0A24316FF23A100BF470C /* Build configuration list for PBXNativeTarget "Flicksample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1F0A24416FF23A100BF470C /* Debug */,
+				D1F0A24516FF23A100BF470C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1F0A21616FF23A100BF470C /* Project object */;
+}
