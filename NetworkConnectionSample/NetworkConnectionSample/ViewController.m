@@ -19,6 +19,16 @@
 @synthesize progressViewController = _progressViewController;
 
 #pragma mark - view life cycle
+- (void)dealloc{
+    if (_callApi) {
+        _callApi.delegate = nil;
+    }
+    _callApi = nil;
+    [_progressViewController release];
+    
+    [super dealloc];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
