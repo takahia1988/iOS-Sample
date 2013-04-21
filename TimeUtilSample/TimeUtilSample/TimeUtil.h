@@ -12,5 +12,7 @@
 
 + (NSString *)getNowTimeStr;
 + (NSString *)convertDateFormatterToDefault:(NSString *)date dateFormat:(NSString *)dateFormat;
++ (NSString *)getPassTime:(NSString *)startTime;
++ (NSString *)getReminingTime:(NSString *)endTime;
 
 @end
